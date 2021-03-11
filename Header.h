@@ -6,8 +6,8 @@
 template <class T>
 T RPM(DWORD address)
 {
-	HANDLE SOMEFUCKINHANDLELETMECOMPILEALREADY;
+	HANDLE SOMEFUCKINHANDLELETMECOMPILEALREADY=NULL;
 	T read;
-	ReadProcessMemory(mem::SOMEFUCKINHANDLELETMECOMPILEALREADY, (DWORD*)address, &read, sizeof(T), 0);
+	ReadProcessMemory(SOMEFUCKINHANDLELETMECOMPILEALREADY, (DWORD*)address, &read, sizeof(T), 0);
 	return read;
 }

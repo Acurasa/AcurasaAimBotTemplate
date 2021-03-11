@@ -1,7 +1,9 @@
+#pragma once
 #include <Windows.h>
 #include <cstdint>
 #include "offfsets.h"
 #include "Vector3.h"
+#include "Header.h"
 class Player
 {
 private:

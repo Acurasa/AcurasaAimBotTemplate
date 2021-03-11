@@ -43,10 +43,9 @@ Player* GetClosestEnemy()
 void Run()
 {
 	Player* closestEnemy = GetClosestEnemy();
-	Player fix = *closestEnemy;
 	if (closestEnemy)
 	{
-		PlayerEntityloc::Get()->AimAt(fix.GetBonePos(8)); ///HERE!!HERE!!HERE!!HERE!!
+		PlayerEntityloc::Get()->AimAt(closestEnemy->GetBonePos(8)); ///HERE!!HERE!!HERE!!HERE!!
 	}
 }
 

@@ -1,4 +1,4 @@
-
+#pragma once
 class Vector3
 {
 public:
@@ -24,13 +24,7 @@ public:
 	}
 };
 
-template <class T>
-T RPM(DWORD address)
-{
-	T read;
-	ReadProcessMemory(HANDLE hmod, (DWORD*)address, &read, sizeof(T), 0);
-	return read;
-}
+
 /*template <class T>
 void WPM(DWORD address, T value)
 {
