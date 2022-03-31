@@ -1,5 +1,5 @@
 # AcurasaAimBotTemplate
 
-#iternal dll + aim locks math
+iternal dll + aim locks math
 
-#use for educational purposes
+use for educational purposes
